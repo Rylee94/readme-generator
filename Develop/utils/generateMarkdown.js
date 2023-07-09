@@ -1,75 +1,60 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  if (!license) {
+    return ``;
+  } else {
+    return `![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)`;
   }
-  return "";
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (license !== "none") {
-    return `https://opensource.org/licenses/${license}`;
-  }
-  return "";
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
+
   ${renderLicenseBadge(data.license)}
-  
+
   ## Description
   
   ${data.description}
   
   ## Table of Contents
   
-  - [Features](#features)
+
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
+  - [Credits](#credits)
+  - [Features](#features)
   - [Tests](#tests)
   - [Questions](#questions)
   
-  ## Features
-  
-  ${data.features}
-  
   ## Installation
   
-  To install the necessary dependencies, run the following command(s):
-  
-  \`\`\`
-  npm install
-  \`\`\`
-  
+  ${data.installation}
+
   ## Usage
   
   ${data.usage}
   
-  ${renderLicenseSection(data.license)}
   
-  ## Contributing
+  ## Credits
   
-  ${data.contributors}
+  ${data.credits}
+
+  ## License
+  
+
+  This application is covered by the ${data.license} license. 
+
+  ## Features
+  
+  ${data.features}
   
   ## Tests
   
-  To run tests, use the following command(s):
-  
-  \`\`\`
-  npm test
-  \`\`\`
-  
+  ${data.test}
+
   ## Questions
   
   If you have any questions, feel free to reach out:

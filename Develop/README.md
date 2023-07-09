@@ -1,54 +1,51 @@
-# rylee
-  
-  ![Github license](https://img.shields.io/badge/license--blue.svg)
-  
+# dsadas
+
+  ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
+
   ## Description
   
-  undefined
+  dasdas
   
   ## Table of Contents
   
-  - [Features](#features)
+
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
+  - [Credits](#credits)
+  - [Features](#features)
   - [Tests](#tests)
   - [Questions](#questions)
   
-  ## Features
-  
-  this, that, and it
-  
   ## Installation
   
-  To install the necessary dependencies, run the following command(s):
-  
-  ```
-  npm install
-  ```
-  
+  dasdasd
+
   ## Usage
   
-  undefined
+  dasas
   
-  undefined
   
-  ## Contributing
+  ## Credits
   
-  sadkasda
+  dasdas
+
+  ## License
+  
+
+  This application is covered by the MIT license. 
+
+  ## Features
+  
+  da
   
   ## Tests
   
-  To run tests, use the following command(s):
-  
-  ```
-  npm test
-  ```
-  
+  das
+
   ## Questions
   
   If you have any questions, feel free to reach out:
   
-  - GitHub: [rylee](https://github.com/rylee)
-  - Email: rylee@gmail.com
+  - GitHub: [sda](https://github.com/sda)
+  - Email: dassa
